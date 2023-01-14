@@ -1,1 +1,1 @@
-Neste curso, resolvo 100 exercícios com python.
+Neste curso, resolvo exercícios de lógica de programação utilizando python.
