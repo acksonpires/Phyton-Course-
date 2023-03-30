@@ -1,3 +1,4 @@
+# Resolvi o exercício de forma diferente da resposta do Guanabara
 def contador(inicio, fim, passo):
     if passo == 0 or passo == -1:
         passo = 1
@@ -30,5 +31,8 @@ print('Agora é sua vez de personalizar a contagem!')
 i = int(input('Início: '))
 f = int(input('Fim: '))
 p = int(input('Passo: '))
+p1 = 0
+if p < 0:
+    p *= -1
 print(f'Contagem de {i} até {f} de {p} em {p}')
 contador(i, f, p)
